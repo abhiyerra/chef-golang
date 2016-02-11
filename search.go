@@ -73,7 +73,7 @@ func (chef *Chef) NewSearchQuery(index, query string) *SearchParams {
 //
 // Usage:
 //
-//     results, err := chef.Search("nodes", "hostname:memcached*")
+//     results, err := chef.Search("node", "hostname:memcached*")
 //     if err != nil {
 //         fmt.Println(err)
 //         os.Exit(1)
